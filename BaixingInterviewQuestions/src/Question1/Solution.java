@@ -18,7 +18,7 @@ public class Solution {
         char[] digits = num.toCharArray();
         int i = 0, j = digits.length - 1;
         while (i <= j) {
-            if (digits[i] != digits[j])
+            if (digits[i++] != digits[j--])
                 return false;
         }
         
