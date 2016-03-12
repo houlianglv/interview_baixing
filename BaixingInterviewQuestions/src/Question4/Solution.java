@@ -11,7 +11,7 @@ import java.util.List;
  */
 
 /*
- * I think this problem is NP-completeness. 
+ * I think this problem is NP-Complete. 
  * Thus there is no known algorithm both correct and fast (polynomial-time) on all cases.
  */
 public class Solution {
