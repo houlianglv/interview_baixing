@@ -9,6 +9,11 @@ import java.util.List;
  * （比如会有10元发票，20元，50元，或者176元，461元这样面值的发票），
  * 问：设计一种算法，可以用最小金额凑满1000元发票（要求给出算法描述，写出代码，并有测试用例）
  */
+
+/*
+ * I think this problem is NP-completeness. 
+ * Thus there is no known algorithm both correct and fast (polynomial-time) on all cases.
+ */
 public class Solution {
     
     // for simple, just use main function to test the solution.
